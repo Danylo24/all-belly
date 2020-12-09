@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
  <head>
- <title>all belly</title>
+ <title>All-Belly</title>
  
   <meta charset="utf-8">
-  <script src="Js/java.js"></script>
+  <script src="js/js.js"></script>
    <link rel="shortcut icon" href="main/img.logo1.jpg" type="image/x-icon">
   <link rel="stylesheet" href="style/style.css">
  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
 <style>
 .dropbtn {
     background-color: #4CAF50;
@@ -64,26 +66,28 @@
  </head>
  <body>
  
+  <header>
+	<nav>
+		<ul class="top-nav">
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Project</a></li>
+		</ul>
+	</nav>
+	 <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                    <h1 class="text1">Вітаємо всіх на нашому новому сайті, із різними смачними та оригінальними рецептами випічки.</h1>
+        </div>
+        </div>
+    </div>
   </header>
   <main>
-  </main>
-  <footer>
-  <div class="jumbotron jumbotron-fluid">
-                    <div class="container">
-                    <h1 class="display-3">WELCOME</h1>
-        <div style="display: none;" id="animatedModal" class="animated-modal">
-          <h2>Hello!</h2>
-          <p>This is animated content! Cool, right?</p>
-        </div>
-                  </div>
-            </div>
-  </footer>
-  <h2>випічка</h2>
+  <h2>Випічка</h2>
 <div class="dropdown">
-<button onclick="myFunction()" class="dropbtn">показати</button>
+<button onclick="myFunction()" class="dropbtn">Солодка випічка</button>
   <div id="myDropdown" class="dropdown-content">
     <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-    <a href="file:///E:/Users/2uf-2020/Desktop/nnn/ttt.html">ЛИМОННИЙ ТАРТ</a>
+    <a href="Лимонний тарт.html">ЛИМОННИЙ ТАРТ</a>
     <a href="#base">Base</a>
     <a href="#blog">Blog</a>
     <a href="#contact">Contact</a>
@@ -113,5 +117,30 @@ function filterFunction() {
     }
 }
 </script>
+<h5></h5>
+  </main>
+  <footer>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<a class="navbar-brand" href="#">Головна</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Про нас</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Контакти</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Про проект</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<hr>
+				<p>siteAll-Belly2020</p>
+	</footer>
  </body>
 </html>
